@@ -33,7 +33,8 @@ def calc_gamma_and_epsilon_product(report):
     gamma = int("".join(gamma_list), 2)
     epsilon = int("".join(epsilon_list), 2)
 
-    print(gamma * epsilon)
+    return gamma, epsilon
 
 
-calc_gamma_and_epsilon_product(report)
+gamma, epsilon = calc_gamma_and_epsilon_product(sample_report)
+print(gamma * epsilon)
