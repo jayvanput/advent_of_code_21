@@ -36,5 +36,6 @@ def calc_gamma_and_epsilon_product(report):
     return gamma, epsilon
 
 
-gamma, epsilon = calc_gamma_and_epsilon_product(sample_report)
-print(gamma * epsilon)
+if __name__ == "__main__":
+    gamma, epsilon = calc_gamma_and_epsilon_product(sample_report)
+    print(gamma * epsilon)
